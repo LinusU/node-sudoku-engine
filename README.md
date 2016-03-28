@@ -25,7 +25,7 @@ Generate and return a solved board.
 
 ### `.validateSolution(board) -> Boolean`
 
-Validate that a board holds a valid solution. Returns a boolean.
+Validate that a board holds a valid solution.
 
 ### `.printBoard(board)`
 
