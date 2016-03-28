@@ -23,6 +23,14 @@ sudoku.printBoard(board)
 
 Generate and return a solved board.
 
+### `.generatePuzzle(solution, difficulty) -> Board`
+
+Generate a puzzle from a solved board. The puzzle is guaranteed to have only one
+solution.
+
+`difficulty` should be a number between `0` and `3` inclusivly, where `0` means
+easiest and `3` means hardest.
+
 ### `.validateSolution(board) -> Boolean`
 
 Validate that a board holds a valid solution.
