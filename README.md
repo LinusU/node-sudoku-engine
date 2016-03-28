@@ -12,21 +12,21 @@ npm install --save sudoku-engine
 
 ```javascript
 const sudoku = require('sudoku-engine')
-const puzzle = sudoku.generateSolvedPuzzle()
+const board = sudoku.generateSolution()
 
-sudoku.printPuzzle(puzzle)
+sudoku.printBoard(board)
 ```
 
 ## API
 
-### `.generateSolvedPuzzle() -> Puzzle`
+### `.generateSolution() -> Board`
 
-Generate and return a solved puzzle.
+Generate and return a solved board.
 
-### `.validatePuzzle(puzzle) -> Boolean`
+### `.validateSolution(board) -> Boolean`
 
-Validate that a puzzle holds a valid solution. Returns a boolean.
+Validate that a board holds a valid solution. Returns a boolean.
 
-### `.printPuzzle(puzzle)`
+### `.printBoard(board)`
 
-Prints a puzzle to the console.
+Prints a board to the console.

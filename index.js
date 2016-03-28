@@ -1,5 +1,5 @@
 'use strict'
 
-exports.generateSolvedPuzzle = require('./lib/generate-solved-puzzle')
-exports.validatePuzzle = require('./lib/validate-puzzle')
-exports.printPuzzle = require('./lib/print-puzzle')
+exports.generateSolution = require('./lib/generate-solution')
+exports.validateSolution = require('./lib/validate-solution')
+exports.printBoard = require('./lib/print-board')
